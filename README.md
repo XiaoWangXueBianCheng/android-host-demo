@@ -1,5 +1,15 @@
 # android-host-demo
 
+## settings.gradle 需要更改flutter module项目的路径
+
+flutter module项目见 [flutter module](https://github.com/XiaoWangXueBianCheng/fluttermodule-demo.git)
+
+集成方式见[flutter add-to-app](https://flutter.cn/docs/development/add-to-app/android/project-setup)
+
+## 重现 bug `E/flutter: [ERROR:flutter/shell/gpu/gpu_surface_gl.cc(70)] Failed to setup Skia Gr context.`
+device: 小米 pad(MI PAD 2)
+reproduce:add abiFilter in app/build.gradle `abiFilter "armeabi-v7a"`
+
 ## 这是一个android support项目集成了flutter module
 
 flutter module 版本
