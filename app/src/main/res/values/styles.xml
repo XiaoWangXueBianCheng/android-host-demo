@@ -19,5 +19,7 @@
 
     <style name="MyFlutterTheme" parent="@style/AppTheme">
         <item name="android:windowIsTranslucent">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:gravity">center</item>
     </style>
 </resources>

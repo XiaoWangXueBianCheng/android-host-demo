@@ -22,22 +22,26 @@
         </activity>
         <activity
             android:name="io.flutter.embedding.android.FlutterActivity"
-            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-            android:hardwareAccelerated="true"
-            android:theme="@style/MyFlutterTheme"
-            android:windowSoftInputMode="adjustResize" />
-        <!--flutter boots 页面-->
-        <activity
-            android:name="com.idlefish.flutterboost.containers.BoostFlutterActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
             android:hardwareAccelerated="true"
-            android:theme="@style/Theme.AppCompat"
+            android:theme="@style/MyFlutterTheme"
             android:windowSoftInputMode="adjustResize">
-<!--            <meta-data-->
-<!--                android:name="io.flutter.embedding.android.SplashScreenDrawable"-->
-<!--                android:resource="@drawable/l" />-->
-
+            <meta-data
+                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+                android:resource="@drawable/icon_splash" />
         </activity>
+        <!--flutter boots 页面-->
+        <!--        <activity-->
+        <!--            android:name="com.idlefish.flutterboost.containers.BoostFlutterActivity"-->
+        <!--            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"-->
+        <!--            android:hardwareAccelerated="true"-->
+        <!--            android:theme="@style/Theme.AppCompat"-->
+        <!--            android:windowSoftInputMode="adjustResize">-->
+        <!--                        <meta-data-->
+        <!--                            android:name="io.flutter.embedding.android.SplashScreenDrawable"-->
+        <!--                            android:resource="@drawable/l" />-->
+
+        <!--        </activity>-->
     </application>
 
 </manifest>
